@@ -698,3 +698,13 @@ button.material-icons, label.material-icons {
 .svgsent svg path {
     fill: #1775ec;
 }
+
+
+@media (max-width: 600px) {
+    .chat, .start-group{
+        width: 300px;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%);
+    }
+}
